@@ -2,28 +2,44 @@ package MiniProjects;
 import java.util.Scanner;
 import java.util.Random;
 public class GuessNumber {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    private static final Scanner sc = new Scanner(System.in);
+    public static int createSecretNumber() {
         Random rand = new Random();
-        int secretNum = rand.nextInt(100) + 1;
-        int counter = 0;
+        return rand.nextInt(100) + 1;
+    }
+    public static int guessNumber() {
+        return sc.nextInt();
+    }
+
+    public static int checkGuess(int secretNum, int guessNum) {
+        if (guessNum < 1 || guessNum > 100) return -2;
+        else if (secretNum < guessNum) return -1;
+        else if (secretNum>guessNum) return 0;
+        return 1;
+    }
+    public static void playGame(int secretNum) {
         while (true) {
-            counter++;
-            System.out.print("Угадайте число от 1 до 100: ");
-            int guessNum = sc.nextInt();
-            if (guessNum < 1 || guessNum>100) {
-                System.out.println("Вы пытаетесь ввести число, которое выходит за рамки загаданного диапазона (1-100)");
-                counter--;
-            } else if (guessNum==secretNum) {
-                System.out.println("Поздравляю! Вы угадали! Количество использованных попыток: " + counter);
-                break;
-            } else if (guessNum < secretNum) {
-                System.out.println("Ваше число меньше загаданного.");
-            }
-            else {
-                System.out.println("Ваше число больше загаданного!");
+            System.out.print("Угадайте число (1-100): ");
+            int guessNum = guessNumber();
+            int guessed = checkGuess(secretNum, guessNum);
+            if (guessed == -2) System.out.println("Ваше число вне диапазона (1-100)!");
+            else if (guessed==-1) System.out.println("Загаданное число меньше");
+            else if (guessed == 0) System.out.println("Загаданное число больше");
+            else if (guessed == 1) {
+                System.out.println("Ура! Вы угадали!");
+                System.out.print("Хотите сыграть ещё раз (Да/Нет): ");
+                sc.nextLine();
+                String answerRepeatGame =sc.nextLine();
+                if (answerRepeatGame.equals("Да")) {
+                    secretNum = createSecretNumber();
+                }
+                else {break;}
             }
         }
-        sc.close();
+
+    }
+    public static void main(String[] args) {
+        int secretNum = createSecretNumber();
+        playGame(secretNum);
     }
 }
