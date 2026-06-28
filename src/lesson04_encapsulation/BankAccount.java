@@ -20,11 +20,7 @@ public class BankAccount {
             user = newUsername.trim();
         }
     }
-    public void setBalance(float newBalance) {
-        if (balance==null && newBalance>0) {
-            balance=newBalance;
-        }
-    }
+
 
     public void upBalance(float upSum) {
         if (upSum>0) {
