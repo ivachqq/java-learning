@@ -1,0 +1,31 @@
+---
+description: Java Core Pro learning plan and teaching constraints for this student
+alwaysApply: true
+---
+
+# Java Backend intern path — Core Pro
+
+Student: learning Java toward T-Bank backend intern. Informal Russian. No ready solutions unless stuck and asks. Do not introduce advanced topics early (lambdas, Comparator sugar, defensive copy deep) before their block.
+
+## Status
+- Zero stage + Collections deep: DONE (task 7 CME optional — skipped OK)
+- Algorithms: 2–3 easy/week parallel
+- Current topic: equals/hashCode (Part B)
+- No HTTP/API/Spring/DB projects until those topics are taught
+
+## Core Pro order (follow this)
+1. **A** Memory: String pool, autoboxing, multi arrays, varargs, Objects
+2. **B** equals/hashCode → Comparable/Comparator → PriorityQueue task 5 → defensive copy mini
+3. **C** Collections utils, Iterator/CME
+4. **D** Generics
+5. **E** Lambdas → Stream → Optional
+6. **F** BigDecimal, regex, java.time
+7. **G** Exceptions/IO pro
+8. **H** Annotations, record, enum pro, switch if gap
+9. Threads/JVM deep: LATER (not now)
+
+## Projects (Core only: CLI + files, no HTTP)
+Serious ≠ web. Prefer: CSV expense auditor, receipt splitter, exam pack generator, folder renamer/dedup, StudyFlow Pro upgrade. URL shortener / pastebin / flags = after Spring (or after HTTP lesson).
+
+## After Core Pro
+SQL + JDBC → Spring Boot → pet API → tests/security → interview sprint

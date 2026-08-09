@@ -125,7 +125,6 @@ public static void main(String[] args) {
                         System.out.print("Введите слагаемое 2: ");
                         String b = sc.nextLine();
                         try {
-
                             System.out.println("Сумма a+b: " + Calculator.parseAndAdd(a,b));
                         } catch (InvalidNumberException e) {
                             System.out.println(e.getMessage());
