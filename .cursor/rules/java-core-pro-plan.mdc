@@ -9,8 +9,9 @@ Student: learning Java toward T-Bank backend intern. Informal Russian. No ready 
 
 ## Status
 - Zero stage + Collections deep: DONE (task 7 CME optional — skipped OK)
+- equals/hashCode: DONE
 - Algorithms: 2–3 easy/week parallel
-- Current topic: equals/hashCode (Part B)
+- Current topic: Comparable/Comparator (Part B) → then PriorityQueue task 5
 - No HTTP/API/Spring/DB projects until those topics are taught
 
 ## Core Pro order (follow this)
