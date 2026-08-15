@@ -13,7 +13,10 @@ Student: learning Java toward T-Bank backend intern. Informal Russian. No ready 
 - Comparable/Comparator: DONE
 - Algorithms: 2–3 easy/week parallel
 - PriorityQueue task 5: DONE
-- Current topic: defensive copy mini (in progress)
+- PriorityQueue task 5: DONE
+- defensive copy mini: DONE
+- Algorithms: 2–3 easy/week parallel
+- Current topic: Part A — String pool (then autoboxing, multi arrays, varargs, Objects)
 - No HTTP/API/Spring/DB projects until those topics are taught
 
 ## Core Pro order (follow this)

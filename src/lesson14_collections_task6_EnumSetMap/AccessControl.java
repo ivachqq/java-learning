@@ -20,7 +20,7 @@ public class AccessControl {
     public static Set<Permission> permissionsOf(Role role) {
         if (role==null) throw new IllegalArgumentException("Такой роли нет");
         if (accessRoles.get(role)==null||accessRoles.get(role).isEmpty()) return EnumSet.noneOf(Permission.class);
-        return accessRoles.get(role);
+        return EnumSet.copyOf(accessRoles.get(role));
     }
     public static Set<Role> rolesWith(Permission perm) {
         EnumSet<Role> roles = EnumSet.noneOf(Role.class);
