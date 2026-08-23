@@ -11,12 +11,15 @@ Student: learning Java toward T-Bank backend intern. Informal Russian. No ready 
 - Zero stage + Collections deep: DONE (task 7 CME optional — skipped OK)
 - equals/hashCode: DONE
 - Comparable/Comparator: DONE
-- Algorithms: 2–3 easy/week parallel
-- PriorityQueue task 5: DONE
 - PriorityQueue task 5: DONE
 - defensive copy mini: DONE
+- String pool: DONE
+- autoboxing: DONE
+- multi arrays: DONE
+- varargs: DONE
+- Objects: DONE (Part A closed)
 - Algorithms: 2–3 easy/week parallel
-- Current topic: Part A — String pool (then autoboxing, multi arrays, varargs, Objects)
+- Current topic: Part C — Collections utils, Iterator/CME
 - No HTTP/API/Spring/DB projects until those topics are taught
 
 ## Core Pro order (follow this)
