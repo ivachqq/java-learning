@@ -19,7 +19,9 @@ Student: learning Java toward T-Bank backend intern. Informal Russian. No ready 
 - varargs: DONE
 - Objects: DONE (Part A closed)
 - Algorithms: 2–3 easy/week parallel
-- Current topic: Part C — Collections utils, Iterator/CME
+- Part C (Collections utils, Iterator/CME): DONE
+- Part D (Generics): DONE
+- Current topic: Part E — Lambdas (then Stream, Optional)
 - No HTTP/API/Spring/DB projects until those topics are taught
 
 ## Core Pro order (follow this)
