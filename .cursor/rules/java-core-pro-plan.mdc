@@ -22,7 +22,9 @@ Student: learning Java toward T-Bank backend intern. Informal Russian. No ready 
 - Part C (Collections utils, Iterator/CME): DONE
 - Part D (Generics): DONE
 - Part E Lambdas (+ anonymous classes): DONE
-- Current topic: Part E — Stream (then Optional)
+- Part E Stream: DONE
+- Part E Optional: DONE (Part E closed)
+- Current topic: Part F — BigDecimal, regex, java.time
 - No HTTP/API/Spring/DB projects until those topics are taught
 
 ## Core Pro order (follow this)
