@@ -24,7 +24,12 @@ Student: learning Java toward T-Bank backend intern. Informal Russian. No ready 
 - Part E Lambdas (+ anonymous classes): DONE
 - Part E Stream: DONE
 - Part E Optional: DONE (Part E closed)
-- Current topic: Part F — BigDecimal, regex, java.time
+- Part F BigDecimal: DONE
+- Part F regex: DONE
+- Part F java.time: DEFERRED → together with Threads/JVM block
+- Part F: closed (java.time later)
+- Part G Exceptions/IO: DONE (lesson26, blocks 1–7)
+- Current topic: Part H — Annotations, record, enum pro, switch
 - No HTTP/API/Spring/DB projects until those topics are taught
 
 ## Core Pro order (follow this)
@@ -33,10 +38,10 @@ Student: learning Java toward T-Bank backend intern. Informal Russian. No ready 
 3. **C** Collections utils, Iterator/CME
 4. **D** Generics
 5. **E** Lambdas → Stream → Optional
-6. **F** BigDecimal, regex, java.time
+6. **F** BigDecimal, regex (java.time → see 9)
 7. **G** Exceptions/IO pro
 8. **H** Annotations, record, enum pro, switch if gap
-9. Threads/JVM deep: LATER (not now)
+9. Threads/JVM deep + java.time: LATER (together)
 
 ## Projects (Core only: CLI + files, no HTTP)
 Serious ≠ web. Prefer: CSV expense auditor, receipt splitter, exam pack generator, folder renamer/dedup, StudyFlow Pro upgrade. URL shortener / pastebin / flags = after Spring (or after HTTP lesson).
